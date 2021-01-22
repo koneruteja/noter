@@ -1,16 +1,20 @@
 {
   "name": "noter",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "An application to take notes using expressjs and node. Saves after the notes is filled out and write option empties the fields. Savednotescan be seen in history.",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/koneruteja/noter.git"
   },
-  "author": "",
+  "author": "koneru.dharmateja1@gmail.com",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/koneruteja/noter/issues"
@@ -18,5 +22,6 @@
   "homepage": "https://github.com/koneruteja/noter#readme",
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "devDependencies": {}
 }
