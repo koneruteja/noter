@@ -1,0 +1,14 @@
+{
+  "notes": [
+    {
+      "title": "New note",
+      "text": "save icon appears",
+      "id": "0"
+    },
+    {
+      "title": "Existing notes",
+      "text": "displays to the left",
+      "id": "1"
+    }
+  ]
+}
